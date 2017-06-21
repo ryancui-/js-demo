@@ -1,6 +1,10 @@
 JavaScript Code Demo
 =====
 
+<p align="center">
+  <a href="https://travis-ci.org/ryancui-/js-demo"><img alt="Travis Status" src="https://img.shields.io/travis/ryancui-/js-demo.svg?label=build&maxAge=43200"></a>
+</p>
+
 ## What's this
 
 一些奇奇怪怪的 JavaScript Code 片段都会 commit 到这里，也包括 leetcode 的一些 JavaScript 实现，也会放在这里。
