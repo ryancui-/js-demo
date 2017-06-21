@@ -32,4 +32,6 @@ const money = argv._[0];
 const inPrice = argv._[1];
 const outPrice = argv._[2];
 
-f(money, inPrice, outPrice);
+// f(money, inPrice, outPrice);
+
+export default f;
