@@ -61,3 +61,5 @@ var connect = function (root) {
   connect(root.left);
   connect(root.right);
 };
+
+export default connect;
