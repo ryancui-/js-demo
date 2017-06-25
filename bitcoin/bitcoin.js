@@ -3,9 +3,6 @@
  */
 
 // A bit coin trade simulator
-import yargs from 'yargs';
-
-const argv = yargs.argv;
 
 const f = (money, inPrice, outPrice) => {
   let amount = (money / inPrice).toFixed(6);
@@ -27,11 +24,5 @@ const f = (money, inPrice, outPrice) => {
 
   console.log(`手续费为：${tradeFee}`);
 };
-
-const money = argv._[0];
-const inPrice = argv._[1];
-const outPrice = argv._[2];
-
-// f(money, inPrice, outPrice);
 
 export default f;
